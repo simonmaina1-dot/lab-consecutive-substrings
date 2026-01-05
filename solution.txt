@@ -1,0 +1,14 @@
+Solution Description:
+---------------------
+The function consecutiveSubstrings generates all consecutive substrings of a string.
+It uses nested loops: the outer loop sets the starting index, and the inner loop sets the ending index for the substring.
+Each substring is extracted using slice() and added to the result array.
+This approach preserves the order of appearance and handles strings of any length, including empty strings.
+
+Time Complexity:
+----------------
+- Outer loop: O(n)
+- Inner loop: O(n-i)
+- Total: O(n^2)
+Space Complexity:
+- O(n^2) to store all substrings

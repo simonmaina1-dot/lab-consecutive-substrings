@@ -1,0 +1,19 @@
+{
+  "name": "consecutive-substrings",
+  "version": "1.0.0",
+  "description": "Generate all consecutive substrings of a string",
+  "main": "src/consecutiveSubstrings.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "algorithm",
+    "substrings",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
